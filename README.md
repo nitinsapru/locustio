@@ -9,4 +9,12 @@ This repository is for code, documentation &amp; sample related to Locust (load 
 4. On completion of download and installation of the module, the application is ready to be used on your local host.
 
 <h3><b>Using & Running Locust:</b></h3>
+1. Write the script using Python as a language. The framework is very much similar to JS or .NET frameworks.<br>
+2. Once the script is ready & the above installation and setup activities are completed, please us the below mentioned command from the local CMD to execute the below mentioned command.
 
+<b>locust -f {Full file path}.py --host {http/https hostname}</b>
+
+<b>Output of the command execution:</b><br>
+C:\Users\Admin>locust -f E:\python\locust_sample_dotnet_anonymous_auth.py --host https://localhost:44361/
+[2019-08-21 23:33:37,273] DM1BX001/INFO/locust.main: Starting web monitor at *:8089
+[2019-08-21 23:33:37,273] DM1BX001/INFO/locust.main: Starting Locust 0.11.0
