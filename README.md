@@ -7,6 +7,7 @@ This repository is for code, documentation &amp; sample related to Locust (load 
 2. If you are not having a running Python 2.7 + version on your host, please download the same from <a href="https://www.python.org/downloads/">here</a>.
 3. Once you have downloaded & installed python , open any of the python IDE's like Visual Studio Code, Notepadd ++ , Anaconda etc, to install locust library for Python.
 4. On completion of download and installation of the module, the application is ready to be used on your local host.
+5. Running locust on windows platform with Python 2.7+ version can simply run the command : <i><b>pip install locustio</b></i> in the terminal & it will install all packages associated with locust. 
 
 <h3><b>Using & Running Locust:</b></h3>
 1. Write the script using Python as a language. The framework is very much similar to JS or .NET frameworks.<br>
